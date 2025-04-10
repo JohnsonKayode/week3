@@ -13,6 +13,10 @@
 # person.course = 'History'
 # print(person.course)
 
+
+#This is a simple banking system that allows users to create a savings or current account, deposit and withdraw money, and # view their account details. using classes and inheritance. loops and inputs as well.
+# It also allows the user to exit the program at any time by typing "done". All done using python
+
 class Account:
     def __init__(self, account_holder, account_number, account_type, balance):
         self.account_number = account_number
