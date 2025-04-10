@@ -87,7 +87,6 @@ while True:
                     break
             break
 
-
     elif account_type == '2': 
         firstUser_account_type = account_type = 'Current Account'
         firstUser_account_holder = account_holder = input('Enter your name or type "done" to Exit: ')
@@ -127,18 +126,3 @@ while True:
     #     continue
 
     # firstUser = account_type(account_holder, account_number, account_type, deposit_amount)
-
-    
-
-
-
-
-
-# firstUser = SavingAccount('Johnson Kayode', '0235166515', 'Savings', 1000)
-# firstUser.withdraw(500)
-# print(firstUser.get_balance())
-
-
-# firstUser.withdraw(50)
-# print(firstUser.get_balance())
-# print(firstUser.get_account_details())
